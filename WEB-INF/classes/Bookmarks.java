@@ -24,6 +24,7 @@ public class Bookmarks extends HttpServlet {
 					out.println("<HTML>");
 					out.println("<BODY>");
 					out.println("<CENTER>");
+					out.println("<h2>"+tag+ "<h2>");
 					out.println("<table BORDER=1 CELLPADDING=2% CELLSPACING=0 WIDTH=50% >");
 					out.println("<th>TAG</th>");
 					out.println("<th>URL</th>");
@@ -67,6 +68,7 @@ public class Bookmarks extends HttpServlet {
 					out.println("<HTML>");
 					out.println("<BODY>");
 					out.println("<CENTER>");
+					out.println("<h2>All Bookmarks<h2>");
 					out.println("<table BORDER=1 CELLPADDING=2% CELLSPACING=0 WIDTH=50% >");
 					out.println("<th>TAG</th>");
 					out.println("<th>URL</th>");
